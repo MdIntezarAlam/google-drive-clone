@@ -1,0 +1,58 @@
+.header {
+    display: grid;
+    grid-template-columns: 300px auto 200px;
+    align-items: center;
+    padding: 5px 20px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo img {
+    height: 50px;
+}
+
+.header_logo>span {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    background-color: rgb(245, 244, 244);
+    border-radius: 10px;
+}
+
+.header_search>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    flex: 1;
+}
+.header_icons{
+    display: flex;
+    align-items: center;
+
+}
+.header_icons>span{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.header_icons .material_icos{
+color: gray;
+font-size: 15px;
+font-weight: 300;
+}
+.header_icons .MuiSvgIcon-root{
+    margin: 0px 10px;
+}

@@ -1,0 +1,76 @@
+.data {
+    flex: 1;
+    padding: 10px 0px 0px 20px;
+}
+
+.data_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    height: 40px;
+}
+
+.data_header_left {
+    display: flex;
+    align-items: center;
+}
+
+.data_header_right svg {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+
+.data_grid {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.data__file {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(61, 17, 238);
+    margin: 10px;
+    min-width: 200px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.data__file svg{
+    font-size: 70px;
+    color: gray;
+    cursor: pointer;
+}
+
+.data__file>span {
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    font-style: 12px;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    width: 100%;
+    cursor: pointer;
+}
+.detailsRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.detailsRow>span{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    }
+    .detailsRow svg{
+        margin-left: 10px;
+        color: gray;
+        font-weight: 500;
+        cursor: pointer;
+    }

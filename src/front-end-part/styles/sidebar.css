@@ -1,0 +1,126 @@
+.sidebar {
+    margin-top: 10px;
+}
+
+.sidebar_btn button {
+    background-color: transparent;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.addicons {
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+}
+
+button>span {
+    color: black;
+    font-weight: 300;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.sidebar_options {
+    margin-top: 12px;
+}
+
+.sidebar_option {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 5px 20px;
+}
+
+.sidebar_option>span {
+    margin-left: 12px;
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+}
+
+.sidebar_option:hover {
+    background-color: #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sidebar_option_Active {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.sidebar_option_Active>span {
+    color: blue;
+    font-weight: 600;
+}
+
+.sidebar_option_Active>svg {
+    color: blue;
+    font-weight: 600;
+}
+
+.progress_bar {
+    padding: 0px 20px;
+}
+
+.progress_bar>span {
+    display: block;
+    font-weight: 300;
+    color: gray;
+}
+
+/* pop */
+.modal_pop {
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.m_heading {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+
+input {
+    padding: 10px;
+    background-color: gray;
+    margin: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.post_submit {
+    width: 100%;
+    background-color: blue;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.uploading{
+    background-color: blue;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
